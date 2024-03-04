@@ -33248,6 +33248,11 @@ type ProjectV2Item implements Node {
   ): ProjectV2ItemFieldValueConnection!
 
   """
+  Identifies the primary key from the database as a BigInt.
+  """
+  fullDatabaseId: BigInt
+
+  """
   The Node ID of the ProjectV2Item object
   """
   id: ID!
@@ -46346,11 +46351,6 @@ enum RepositoryRuleType {
   request and required workflow checks to pass before they can be merged.
   """
   REQUIRED_WORKFLOW_STATUS_CHECKS
-
-  """
-  Commits pushed to matching refs must have verified signatures.
-  """
-  RULESET_REQUIRED_SIGNATURES
 
   """
   Secret scanning

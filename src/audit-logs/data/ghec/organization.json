@@ -565,8 +565,18 @@
     "docs_reference_links": "N/A"
   },
   {
+    "action": "integration.suspend",
+    "description": "An integration was suspended.",
+    "docs_reference_links": "N/A"
+  },
+  {
     "action": "integration.transfer",
     "description": "Ownership of an integration was transferred to another user or organization.",
+    "docs_reference_links": "N/A"
+  },
+  {
+    "action": "integration.unsuspend",
+    "description": "An integration was unsuspended.",
     "docs_reference_links": "N/A"
   },
   {
@@ -2728,6 +2738,11 @@
     "action": "secret_scanning_alert.revoke",
     "description": "A secret scanning alert was revoked.",
     "docs_reference_links": "N/A"
+  },
+  {
+    "action": "secret_scanning_alert.validate",
+    "description": "A secret scanning alert was validated.",
+    "docs_reference_links": "/code-security/secret-scanning/managing-alerts-from-secret-scanning"
   },
   {
     "action": "secret_scanning.disable",

@@ -32,13 +32,11 @@ Make it easy for your users to confidentially report security vulnerabilities th
 Privately discuss and fix security vulnerabilities in your repository's code. You can then publish a security advisory to alert your community to the vulnerability and encourage community members to upgrade. For more information, see "[AUTOTITLE](/code-security/security-advisories/working-with-repository-security-advisories/about-repository-security-advisories)."
 
 {% endif %}
-{% ifversion fpt or ghec or ghes %}
 
 ### {% data variables.product.prodname_dependabot_alerts %} and security updates
 
 View alerts about dependencies that are known to contain security vulnerabilities, and choose whether to have pull requests generated automatically to update these dependencies. For more information, see "[AUTOTITLE](/code-security/dependabot/dependabot-alerts/about-dependabot-alerts)"
 and "[AUTOTITLE](/code-security/dependabot/dependabot-security-updates/about-dependabot-security-updates)."
-{% endif %}
 
 {% ifversion dependabot-auto-triage-rules %}
 
@@ -80,6 +78,14 @@ Security overview shows which security features are enabled for the repository, 
 ### {% data variables.secret-scanning.partner_alerts_caps %}
 
 Automatically detect leaked secrets across all public repositories, as well as public npm packages. {% data variables.product.company_short %} informs the relevant service provider that the secret may be compromised. For details of the supported secrets and service providers, see "[AUTOTITLE](/code-security/secret-scanning/secret-scanning-patterns#supported-secrets)."
+
+{% ifversion secret-scanning-push-protection-for-users %}
+
+### Push protection for users
+
+Push protection for users automatically protects you from accidentally committing secrets to public repositories, regardless of whether the repository itself has {% data variables.product.prodname_secret_scanning %} enabled. Push protection for users is on by default, but you can disable the feature at any time through your personal account settings. For more information, see "[AUTOTITLE](/code-security/secret-scanning/push-protection-for-users)."
+
+{% endif %}
 
 {% endif %}
 

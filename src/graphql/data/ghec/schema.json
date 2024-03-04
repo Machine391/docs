@@ -46356,6 +46356,14 @@
           ]
         },
         {
+          "name": "fullDatabaseId",
+          "description": "<p>Identifies the primary key from the database as a BigInt.</p>",
+          "type": "BigInt",
+          "id": "bigint",
+          "kind": "scalars",
+          "href": "/graphql/reference/scalars#bigint"
+        },
+        {
           "name": "id",
           "description": "<p>The Node ID of the ProjectV2Item object.</p>",
           "type": "ID!",
@@ -86299,10 +86307,6 @@
         {
           "name": "REQUIRED_WORKFLOW_STATUS_CHECKS",
           "description": "<p>Require all commits be made to a non-target branch and submitted via a pull\nrequest and required workflow checks to pass before they can be merged.</p>"
-        },
-        {
-          "name": "RULESET_REQUIRED_SIGNATURES",
-          "description": "<p>Commits pushed to matching refs must have verified signatures.</p>"
         },
         {
           "name": "SECRET_SCANNING",
