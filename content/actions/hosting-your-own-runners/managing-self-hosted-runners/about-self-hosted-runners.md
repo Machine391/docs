@@ -287,3 +287,4 @@ For more information about security hardening for self-hosted runners, see "[AUT
 - "[AUTOTITLE](/admin/github-actions/getting-started-with-github-actions-for-your-enterprise/getting-started-with-self-hosted-runners-for-your-enterprise)"
 
 {% endif %}
+content/actions/hosting-your-own-runners/managing-self-hosted-runners/about-self-hosted-runners.md
