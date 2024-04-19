@@ -12,7 +12,6 @@ import { Lead } from 'src/frame/components/ui/Lead'
 import { PermissionsStatement } from 'src/frame/components/ui/PermissionsStatement'
 import { ArticleGridLayout } from './ArticleGridLayout'
 import { ArticleInlineLayout } from './ArticleInlineLayout'
-import { MeasureBrokenHashes } from './MeasureBrokenHashes'
 import { PlatformPicker } from 'src/tools/components/PlatformPicker'
 import { ToolPicker } from 'src/tools/components/ToolPicker'
 import { MiniTocs } from 'src/frame/components/ui/MiniTocs'
@@ -103,19 +102,25 @@ export const ArticlePage = () => {
     <DefaultLayout>
       <LinkPreviewPopover />
       {isDev && <ClientSideRefresh />}
-      <MeasureBrokenHashes />
       {router.pathname.includes('/rest/') && <RestRedirect />}
       {currentLayout === 'inline' ? (
-        <ArticleInlineLayout
-          supportPortalVaIframeProps={supportPortalVaIframeProps}
-          topper={<ArticleTitle>{title}</ArticleTitle>}
-          intro={introProp}
-          introCallOuts={introCalloutsProp}
-          toc={toc}
-          breadcrumbs={<Breadcrumbs />}
-        >
-          {articleContents}
-        </ArticleInlineLayout>
+        <>
+          <ArticleInlineLayout
+            supportPortalVaIframeProps={supportPortalVaIframeProps}
+            topper={<ArticleTitle>{title}</ArticleTitle>}
+            intro={introProp}
+            introCallOuts={introCalloutsProp}
+            toc={toc}
+            breadcrumbs={<Breadcrumbs />}
+          >
+            {articleContents}
+          </ArticleInlineLayout>
+          {isLearningPath ? (
+            <div className="container-lg mt-4 px-3">
+              <LearningTrackNav track={currentLearningTrack} />
+            </div>
+          ) : null}
+        </>
       ) : (
         <div className="container-xl px-3 px-md-6 my-4">
           <div className={cx('d-none d-xxl-block mt-3 mr-auto width-full')}>

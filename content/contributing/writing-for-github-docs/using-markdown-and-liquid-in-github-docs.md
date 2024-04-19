@@ -50,27 +50,29 @@ This content is displayed on the {% data variables.product.prodname_docs %} site
 
 ## Callout tags
 
-Callouts highlight important information that users need to know. We use standard formatting and colors for different types of callouts: notes, warnings, and danger notices. Use Liquid tags before and after the text you’d like included in the callout box.
+Callouts highlight important information that users need to know. We use standard formatting and colors for four different types of callouts: notes, tips, warnings, and danger notices.
 
-For information on when to use callout tags, see "[AUTOTITLE](/contributing/style-guide-and-content-model/style-guide#callouts)."
+For information on when to use callouts, and how to format them in Markdown, see "[AUTOTITLE](/contributing/style-guide-and-content-model/style-guide#callouts)."
 
-### Example usage of a callout
+### Examples of callouts
 
 ```markdown
-{% raw %}{% note %}
-
-**Note:** Owners and administrators can add outside collaborators to a repository.
-
-{% endnote %}{% endraw %}
+> [!NOTE] Keep this in mind.
 ```
 
-### Example callout rendered on {% data variables.product.prodname_docs %}
+```markdown
+> [!NOTE]
+> Generally callouts should be short.
+>
+> But occasionally may require more than one paragraph
+```
 
-{% note %}
+### Example callouts rendered on {% data variables.product.prodname_docs %}
 
-**Note:** Owners and administrators can add outside collaborators to a repository.
-
-{% endnote %}
+> [!NOTE]
+> Generally callouts should be short.
+>
+> But occasionally may require more than one paragraph
 
 ## Code sample syntax highlighting
 
@@ -79,7 +81,7 @@ To render syntax highlighting in command line instructions and code samples, we 
 ### Example usage of code syntax highlighting
 
     ```bash
-    git init YOUR_REPOSITORY
+    git init YOUR-REPOSITORY
     ```
 
 Within the code sample syntax, use all uppercase text to indicate placeholder text or content that varies for each user, such as a user or repository name. By default, codeblocks will escape the content within the triple backticks. If you need to write sample code that parses the content (for example, to italicize text within `<em>` tags instead of passing the tags through literally), wrap the codeblock in `<pre>` tags.
