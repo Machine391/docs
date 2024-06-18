@@ -29,6 +29,13 @@ redirect_from:
 {% ifversion billing-auth-and-capture %}
 {% data reusables.billing.authorization-charge %}
 {% endif %}
+from typing import Protocol
+
+class Base:
+    pass
+
+class P(Protocol[Base]):
+    pass
 
 {% data reusables.codespaces.codespaces-free-for-personal-intro %}
 
