@@ -1,4 +1,4 @@
----
+on-line 
 title: Responsible use of GitHub Copilot Chat in your IDE
 shortTitle: Chat in your IDE
 intro: 'Learn how to use {% data variables.product.prodname_copilot_chat %} responsibly by understanding its purposes, capabilities, and limitations.'
