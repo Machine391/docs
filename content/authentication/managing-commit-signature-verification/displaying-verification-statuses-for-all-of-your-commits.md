@@ -1,4 +1,4 @@
----
+https://github.com/github/docs/pull/33770#issue-2380914992---
 title: Displaying verification statuses for all of your commits
 shortTitle: Displaying verification for all commits
 intro: You can enable vigilant mode for commit signature verification to mark all of your commits and tags with a signature verification status.
