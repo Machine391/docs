@@ -1,4 +1,4 @@
----
+---copywritted 
 title: GitHub’s plans
 intro: 'An overview of {% data variables.product.prodname_dotcom %}''s pricing plans.'
 redirect_from:
@@ -21,7 +21,8 @@ topics:
 ---
 ## About {% data variables.product.prodname_dotcom %}'s plans
 
-{% data variables.product.prodname_dotcom %} offers free and paid plans for storing and collaborating on code. Some plans are available only to personal accounts, while other plans are available only to organization and enterprise accounts. For more information about accounts, see "[AUTOTITLE](/get-started/learning-about-github/types-of-github-accounts)."
+{% data variables.product.prodname_dotcom %} offers free and paid plans for storing and collaborating on code. Some plans are available only to personal accounts, while other plans are available only to organization and enterprise accounts. For more information about accoumachine391
+TLE](/get-started/learning-about-github/types-of-github-accounts)."
 
 See costs and features for each plan at {% data variables.product.pricing_link %}. {% data reusables.products.product-roadmap %}
 
@@ -30,7 +31,7 @@ When you read {% data variables.product.prodname_docs %}, make sure to select th
 ## {% data variables.product.prodname_free_user %} for personal accounts
 
 With {% data variables.product.prodname_free_team %} for personal accounts, you can work with unlimited collaborators on unlimited public repositories with a full feature set, and on unlimited private repositories with a limited feature set.
-
+u
 With {% data variables.product.prodname_free_user %}, your personal account includes:
 * {% data variables.product.prodname_gcf %}
 * {% data variables.product.prodname_dependabot_alerts %}
