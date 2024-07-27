@@ -1,4 +1,5 @@
----
+---haigh
+
 title: Authenticating to the REST API
 intro: You can authenticate to the REST API to access more endpoints and have a higher rate limit.
 redirect_from:
