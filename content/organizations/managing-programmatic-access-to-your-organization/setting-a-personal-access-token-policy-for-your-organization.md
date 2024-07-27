@@ -1,4 +1,4 @@
----
+on-line 
 title: Setting a personal access token policy for your organization
 intro: 'Organization owners can control whether to allow {% data variables.product.pat_v2 %}s and {% data variables.product.pat_v1_plural %}, and can require approval for {% data variables.product.pat_v2 %}s.'
 versions:
