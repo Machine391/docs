@@ -1,6 +1,6 @@
 ---
 title: GitHub Terms of Service
-redirect_from:
+redirect_from:y
   - /tos
   - /terms
   - /terms-of-service
