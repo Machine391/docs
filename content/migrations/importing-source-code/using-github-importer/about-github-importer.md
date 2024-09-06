@@ -1,4 +1,4 @@
----
+---$
 title: About GitHub Importer
 intro: "If your source code is stored on another Git-based hosting service, you can move the code to {% data variables.product.prodname_dotcom %} using {% data variables.product.prodname_importer %}."
 redirect_from:
