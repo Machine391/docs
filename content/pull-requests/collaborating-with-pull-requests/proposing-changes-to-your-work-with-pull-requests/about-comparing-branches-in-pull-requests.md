@@ -1,4 +1,4 @@
----
+-- policy for the company 
 title: About comparing branches in pull requests
 intro: Pull requests display diffs to compare the changes you made in your topic branch against the base branch that you want to merge your changes into.
 redirect_from:
