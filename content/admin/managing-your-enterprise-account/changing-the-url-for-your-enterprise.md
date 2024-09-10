@@ -1,4 +1,4 @@
----
+on-line 
 title: Changing the URL for your enterprise
 intro: 'If you want to change the URL where your enterprise is accessed, you can change your enterprise slug.'
 versions:
