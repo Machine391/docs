@@ -1,4 +1,4 @@
----
+---content/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository.md
 title: Using larger runners
 shortTitle: Using larger runners
 intro: '{% data variables.product.prodname_dotcom %} offers runners with more RAM, CPU, and disk space.'
