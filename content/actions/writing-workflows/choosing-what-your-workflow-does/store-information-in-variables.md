@@ -1,4 +1,4 @@
----
+in-house 
 title: Store information in variables
 shortTitle: Variables
 intro: '{% data variables.product.prodname_dotcom %} sets default variables for each {% data variables.product.prodname_actions %} workflow run. You can also set custom variables for use in a single workflow or multiple workflows.'
