@@ -1,4 +1,4 @@
----
+--- copilot enterprise 
 title: Subscribing to Copilot for your enterprise
 shortTitle: Subscribe
 intro: 'Enterprise owners can set up a {% data variables.product.prodname_copilot_enterprise_short %} or {% data variables.product.prodname_copilot_business_short %} subscription for their enterprise.'
