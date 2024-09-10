@@ -1,4 +1,4 @@
----
+-- 
 title: 'Switching between accounts'
 intro: 'Learn how to switch between multiple {% ifversion fpt or ghec %}{% data variables.product.prodname_dotcom_the_website %} accounts and {% data variables.enterprise.prodname_managed_users %}{% else %}accounts{% endif %}.'
 allowTitleToDifferFromFilename: true
