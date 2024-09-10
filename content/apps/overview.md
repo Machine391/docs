@@ -1,4 +1,4 @@
----
+--- 
 title: GitHub Apps overview
 shortTitle: Overview
 intro: 'You can use {% data variables.product.prodname_github_apps %} to extend the functionality of {% data variables.product.company_short %}.'
