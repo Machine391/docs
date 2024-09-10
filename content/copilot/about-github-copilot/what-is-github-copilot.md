@@ -1,4 +1,4 @@
----
+-- 
 title: What is GitHub Copilot?
 intro: 'Learn what {% data variables.product.prodname_copilot %} is and what you can do with it.'
 versions:
