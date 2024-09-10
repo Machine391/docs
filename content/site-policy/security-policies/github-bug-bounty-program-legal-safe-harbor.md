@@ -1,4 +1,4 @@
----
+https://github.com/github/docs/blob/93bdac2bba6076e207301ba10d88638f2aeb379d/content/repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/disabling-issues.md?plain=1#L4---
 title: GitHub Bug Bounty Program Legal Safe Harbor
 redirect_from:
   - /articles/github-bug-bounty-program-legal-safe-harbor
