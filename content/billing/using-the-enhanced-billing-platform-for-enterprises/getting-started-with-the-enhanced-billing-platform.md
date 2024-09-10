@@ -1,4 +1,4 @@
----
+billing information---
 title: Getting started with the enhanced billing platform
 intro: 'Learn how to start using the enhanced billing platform for your enterprise account.'
 versions:
