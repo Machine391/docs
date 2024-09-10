@@ -33,13 +33,13 @@ After you apply a {% data variables.product.prodname_security_configuration %} t
 
 {% data reusables.security-configurations.secret-scanning-security-configs-summary %} {% ifversion fpt or ghec %}There are two types of {% data variables.product.prodname_secret_scanning %} alerts:
 
-- {% data variables.secret-scanning.partner_alerts_caps %}, which are sent to the provider who issued the secret
-- {% data variables.secret-scanning.user_alerts_caps %}, which appear on {% data variables.product.product_name %} and can be resolved
+* {% data variables.secret-scanning.partner_alerts_caps %}, which are sent to the provider who issued the secret
+* {% data variables.secret-scanning.user_alerts_caps %}, which appear on {% data variables.product.product_name %} and can be resolved
 
 {% endif %}
 You can view {% data variables.product.prodname_secret_scanning %} alerts for a repository by navigating to the main page of that repository, clicking the {% octicon "shield" aria-hidden="true" %} **Security** tab, then clicking {% octicon "key" aria-hidden="true" %} **{% data variables.product.prodname_secret_scanning_caps %}**.
 
-For an introduction to {% data variables.product.prodname_secret_scanning %} alerts, see "[AUTOTITLE](/code-security/secret-scanning/about-secret-scanning#about-secret-scanning-alerts-for-users)."
+For an introduction to {% data variables.product.prodname_secret_scanning %} alerts, see "[AUTOTITLE](/code-security/secret-scanning/managing-alerts-from-secret-scanning/about-alerts)."
 
 To learn how to interpret and resolve {% data variables.product.prodname_secret_scanning %} alerts, see "[AUTOTITLE](/code-security/secret-scanning/managing-alerts-from-secret-scanning)."
 
