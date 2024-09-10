@@ -1,4 +1,6 @@
----
+git clone https://HOSTNAME/USERNAME/REPO.git
+Username: YOUR-USERNAME
+Password: YOUR-PERSONAL-ACCESS-TOKEN--- 
 title: Managing your personal access tokens
 shortTitle: 'Manage {% data variables.product.pat_generic %}s'
 intro: 'You can use a {% data variables.product.pat_generic %} in place of a password when authenticating to {% data variables.product.prodname_dotcom %} in the command line or with the API.'
