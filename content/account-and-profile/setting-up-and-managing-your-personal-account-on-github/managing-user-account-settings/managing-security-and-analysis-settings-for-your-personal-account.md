@@ -1,4 +1,4 @@
----
+---7
 title: Managing security and analysis settings for your personal account
 intro: 'You can control features that secure and analyze the code in your projects on {% data variables.product.prodname_dotcom %}.'
 versions:
