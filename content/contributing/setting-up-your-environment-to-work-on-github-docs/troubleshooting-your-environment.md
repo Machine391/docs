@@ -1,4 +1,4 @@
----
+3---
 title: Troubleshooting your environment
 intro: "Learn about troubleshooting problems in your local environment and the {% data variables.product.prodname_docs %} staging platform."
 versions:
