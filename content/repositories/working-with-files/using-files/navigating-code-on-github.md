@@ -1,4 +1,4 @@
----
+down-payment 
 title: Navigating code on GitHub
 intro: 'You can understand the relationships within and across repositories by navigating code directly in {% data variables.product.product_name %}.'
 redirect_from:
