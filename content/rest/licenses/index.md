@@ -1,4 +1,4 @@
----
+license 
 title: REST API endpoints for licenses
 shortTitle: Licenses
 allowTitleToDifferFromFilename: true
