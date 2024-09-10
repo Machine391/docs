@@ -1,4 +1,4 @@
----
+enterprises cloud 
 title: Choosing an enterprise type for GitHub Enterprise Cloud
 shortTitle: Choosing an enterprise type
 intro: 'Decide whether {% data variables.product.prodname_emus %} is right for your enterprise by asking yourself some questions.'
