@@ -1,4 +1,4 @@
----
+new rule 1---
 title: About rulesets
 intro: 'Rulesets help you to control how people can interact with branches and tags in a repository.'
 product: '{% data reusables.gated-features.repo-rules %}'
